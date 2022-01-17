@@ -1,0 +1,59 @@
+.mainContainer {
+    display: block;
+}
+
+.sizeHeaderContainer {
+    margin-top: 10px;
+}
+
+.size {
+    color: var(--secondary-font-color);
+    font-size: 12px;
+    letter-spacing: .25px;
+
+}
+
+.selectedSize {
+    font-size: 12px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.required {
+    color: var(--primary-red);
+}
+
+.unselectedContainer {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--border-light-grey);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: var(--secondary-font-color);
+    transition: background-color 0.5s ease;
+    font-size: 11px;
+}
+
+.unselectedContainer:hover {
+    cursor: pointer;
+}
+
+.addToCartCTA {
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid var(--border-dark-grey);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: bold;
+    letter-spacing: .25px;
+    cursor: pointer;
+}
+
+.addToCartCTA:hover {
+    background-color: var(--border-dark-grey);
+    color: white;
+}

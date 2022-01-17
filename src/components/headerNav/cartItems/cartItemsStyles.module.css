@@ -1,0 +1,12 @@
+.itemContainer {
+    width: 350px;
+    padding: 10px;
+}
+
+.img {
+    width: 100%;
+}
+
+.itemDetails span {
+    display: block;
+}

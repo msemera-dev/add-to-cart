@@ -1,0 +1,12 @@
+.mainGrid{
+    width: 75% !important;
+    margin: 20px auto;
+}
+.contentContainer{
+    width: 75%;
+    justify-content: center;
+    margin: 30px auto;
+}
+.img{
+    width: 50%;
+}

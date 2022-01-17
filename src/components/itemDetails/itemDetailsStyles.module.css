@@ -1,0 +1,27 @@
+.mainContainer {
+    display: block;
+}
+.mainContainer span{
+    display: block;
+}
+
+
+.itemName, .itemPrice {
+    color: var(--primary-font-color);
+}
+.itemName{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.itemPrice{
+    padding: 10px 0px;
+    border-top: 1px solid var(--background-color);
+    border-bottom: 1px solid var(--background-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.itemDescription {
+    color: var(--secondary-font-color);
+}
