@@ -15,3 +15,6 @@
 .navCart{
     color: var(--secondary-font-color);
 }
+.noItemsYet{
+    margin: 20px;
+}

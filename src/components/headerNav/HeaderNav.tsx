@@ -41,9 +41,14 @@ const HeaderNav: FunctionComponent<IHeaderNavProps> = ({ cartItems, itemsWithCou
           onClose={handleClose}
           anchorEl={anchorEl}
         >
-          {Object.keys(itemsWithCount).map((key: string) => (
-            itemsWithCount[key] !== null && <CartItem item={key} length={itemsWithCount[key]} />
-          ))}
+          {cartItems.length !== 0 ?
+            Object.keys(itemsWithCount).map((key: string) => (
+              itemsWithCount[key] !== null && <CartItem item={key} length={itemsWithCount[key]} />
+            ))
+            : (
+              <span className={styles.noItemsYet}>There is no item selected yet. </span>
+            )
+          }
         </Popover>
       </Box>
     </Grid>
